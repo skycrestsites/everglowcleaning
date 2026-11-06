@@ -29,9 +29,7 @@ Works on any static host. No build step needed: upload the folder as is.
 - `robots.txt`, `sitemap.xml`, `site.webmanifest`
 
 ## Before going live
-1. **Starting prices** are placeholders and must be confirmed with the client:
-   Standard $129, Deep $229, Recurring $109, Move-In/Out $269, Post-Construction $299,
-   Airbnb $99, Add-ons $25, Commercial = custom quote.
+1. **Pricing**: no prices are shown on the site. Every service routes visitors to the free quote form.
 2. **Email**: `hello@everglowcleaning-company.com` is used everywhere. Create that inbox
    or replace it across the HTML files.
 3. **Phone number**: none was provided, so none is shown. Add one to the top bar,
