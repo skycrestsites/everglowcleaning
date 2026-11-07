@@ -411,6 +411,17 @@ p { margin: 0 0 1em; }
 .site-footer a:hover { color: var(--glow); }
 .footer-bottom { margin-top: 48px; padding-top: 24px; border-top: 1px solid var(--line-dark); display: flex; flex-direction: column; gap: 10px; font-size: 0.8rem; color: rgba(255,255,255,.5); }
 
+/* Phone in header */
+.header-actions { display: none; align-items: center; gap: 22px; }
+.header-phone { display: inline-flex; align-items: center; gap: 8px; font-family: var(--font-head); font-stretch: 108%; font-weight: 600; font-size: 0.92rem; color: var(--ink); white-space: nowrap; }
+.header-phone svg { width: 18px; height: 18px; color: var(--glow-600); }
+.header-phone:hover { color: var(--glow-700); }
+.mobile-cta .btn--outline { flex: 0 0 auto; padding: 0 20px; background: #fff; }
+@media (min-width: 900px) { .header-actions { display: inline-flex; } }
+@media (max-width: 1099px) { .header-phone span { display: none; } }
+@media (max-width: 559px) { .topbar__phone { display: none !important; } }
+.topbar li { white-space: nowrap; }
+
 /* Mobile sticky CTA */
 .mobile-cta { position: fixed; left: 0; right: 0; bottom: 0; z-index: 90; display: flex; gap: 10px; padding: 10px var(--gutter) calc(10px + env(safe-area-inset-bottom)); background: rgba(255,255,255,.96); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border-top: 1px solid var(--line); transform: translateY(110%); transition: transform .3s ease; }
 .mobile-cta.is-visible { transform: none; }

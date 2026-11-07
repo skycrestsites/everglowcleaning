@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://everglowcleaning-company.com/sitemap.xml
+Sitemap: https://everglowcleaningcompany.com/sitemap.xml

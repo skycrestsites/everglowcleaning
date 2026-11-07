@@ -1,7 +1,7 @@
 # Everglow Cleaning Co. website
 
 Static, mobile-first website for Everglow Cleaning Co. (Yuba City, CA).
-Planned domain: https://everglowcleaning-company.com
+Planned domain: https://everglowcleaningcompany.com
 
 ## Pages (clean URLs, no .html)
 Every page lives in its own folder as `index.html`, so URLs look like:
@@ -30,7 +30,7 @@ Works on any static host. No build step needed: upload the folder as is.
 
 ## Before going live
 1. **Pricing**: no prices are shown on the site. Every service routes visitors to the free quote form.
-2. **Email**: `hello@everglowcleaning-company.com` is used everywhere. Create that inbox
+2. **Email**: `contact@everglowcleaningcompany.com` is used everywhere. Create that inbox
    or replace it across the HTML files.
 3. **Phone number**: none was provided, so none is shown. Add one to the top bar,
    contact page and schema once available.
